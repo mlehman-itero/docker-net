@@ -1,7 +1,9 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "docker-net", "docker-net.csproj", "{BA3CC2E2-8D14-4FAF-AAD1-0A448A869FDC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "web", "web\web.csproj", "{CBFD70B7-796C-420B-B43B-3915A1C0440A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "web.Tests", "web.Tests\web.Tests.csproj", "{C54D71DC-CBD2-436A-9821-C69CB96209CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,9 +11,13 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BA3CC2E2-8D14-4FAF-AAD1-0A448A869FDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BA3CC2E2-8D14-4FAF-AAD1-0A448A869FDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BA3CC2E2-8D14-4FAF-AAD1-0A448A869FDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BA3CC2E2-8D14-4FAF-AAD1-0A448A869FDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBFD70B7-796C-420B-B43B-3915A1C0440A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBFD70B7-796C-420B-B43B-3915A1C0440A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBFD70B7-796C-420B-B43B-3915A1C0440A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBFD70B7-796C-420B-B43B-3915A1C0440A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C54D71DC-CBD2-436A-9821-C69CB96209CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C54D71DC-CBD2-436A-9821-C69CB96209CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C54D71DC-CBD2-436A-9821-C69CB96209CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C54D71DC-CBD2-436A-9821-C69CB96209CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

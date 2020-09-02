@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace docker_net.Controllers
+namespace web.Controllers
 {
     [ApiController]
     [Route("[controller]")]
