@@ -1,6 +1,6 @@
 using System;
 
-namespace docker_net
+namespace web
 {
     public class WeatherForecast
     {
