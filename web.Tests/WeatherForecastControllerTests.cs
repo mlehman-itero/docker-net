@@ -29,8 +29,15 @@ namespace web.Tests
         [InlineData(3)]
         public void Get_Should_Not_Return_X_Forecasts(int value)
         {
+            var result = _controller.Get();         
+            Assert.NotEqual(value, result.Count);
+        }
+
+        [Fact]
+        public void Get_Should_Return_X_Forecasts()
+        {
             var result = _controller.Get();
-            // Assert.Equal(value, result.)
+            Assert.Equal(5, result.Count);
         }
     }
 }
